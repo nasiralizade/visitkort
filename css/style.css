@@ -1,0 +1,25 @@
+
+#page1 {
+    background-color: aquamarine;
+    padding: 1px;
+    width: 500px;
+  }
+label {
+     color:black; 
+     font-weight: bold;
+      display: block; 
+      width: 150px; 
+      float: left; 
+    } 
+label:after { content: ": " }
+#centerbuttons{
+    width:250px; 
+    margin:0 auto;
+    
+ }
+ #visitkort{
+    width: 500px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+ } 

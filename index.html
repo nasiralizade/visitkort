@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+  <head>
+    <title>Laboration 1</title>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+  </head>
+  <body>
+    <form id="page1">
+      <h1>Beställ ditt visit kort här:</h1>
+      <label for="företagsnamn">Företag</label>
+      <input type="text" id="företagsnamn" name="företagsnamn" ><br >
+      <label for="efternamn">Efternamn</label>
+      <input type="text" id="efternamn" name="efternamn"  ><br >
+      <label for="förnamn">Förnamn</label>
+      <input type="text" id="förnamn" name="förnamn" ><br >
+      <label for="titel">Titel</label>
+      <input type="text" id="titel" name="titel" ><br >
+      <label for="telefonnummer">Telefon</label>
+      <input type="tel" id="telefonnummer" name="telefonnummer" ><br >
+      <label for="email">E-post</label>
+      <input type="email" id="email" name="email" ><br >
+      <label for="bakgrundsfärg">Bakgrundsfärg</label>
+      <select id="bakgrundsfärg" name="bakgrundsfärg">
+        <option value="red">Röd</option>
+        <option value="white">Vit</option>
+        <option value="black">Svart</option>
+        <option value="yellow">Gul</option>
+        <option value="blue">Blå</option></select
+      ><br >
+      <label for="textfärg">Textfärg</label>
+      <select id="textfärg" name="textfärg">
+        <option value="white">Vit</option>
+        <option value="black">Svart</option>
+        <option value="gray">Grey</option>
+        <option value="blue">Blå</option>
+        </select
+      ><br>
+      <label for="font">Typsnitt</label>
+      <select id="font" name="font">
+        <option value="Arial">Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Perpetua">Perpetua</option>
+        <option value="Optima">Optima</option>
+        <option value="Monaco">Monaco</option>
+      </select><br><br>
+      <div id="centerbuttons">
+      <input type="button" id="reset" value="Nollställ">
+      <input type="button" id="create" value="Skriv Ut">
+    </div>
+    </form>
+    <div id="visitkort">
+        <h1 id="företagsnamn-display">Placeholder</h1>
+        <h2 id="namn">Placeholder</h2>
+        <h2 id="titel-display">Placeholder</h2>
+        <p id="telefonnummer-display">Placeholder</p>
+        <p id="email-display">Placeholder</p>
+        <input type="button" id="tillbaka" value="Tillbaka">
+      </div>
+    <script src="js/js.js"></script>
+  </body>
+</html>
